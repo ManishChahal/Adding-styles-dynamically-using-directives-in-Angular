@@ -1,0 +1,72 @@
+<main class="mainContainer" id="mainContents">
+
+  <header class="header">
+    Header
+  </header>
+  <section class="contents">
+    <button (click) = 'buttonPopUpOpener()' style="margin : 3em">
+      Click Me TO OPEN POP UP!!!!!
+    </button>
+
+    <div>
+      <pre>
+        Learn one way to build applications with Angular and reuse your 
+         and abilities to build apps for any deployment target. For web,
+          mobile web, native mobile and native desktop.
+        </pre>
+    </div>
+
+    <div>
+        <pre>
+          Learn one way to build applications with Angular and reuse your 
+           and abilities to build apps for any deployment target. For web,
+            mobile web, native mobile and native desktop.
+          </pre>
+      </div>
+
+      <div>
+          <pre>
+            Learn one way to build applications with Angular and reuse your 
+             and abilities to build apps for any deployment target. For web,
+              mobile web, native mobile and native desktop.
+            </pre>
+        </div>
+
+        <div>
+            <pre>
+              Learn one way to build applications with Angular and reuse your 
+               and abilities to build apps for any deployment target. For web,
+                mobile web, native mobile and native desktop.
+              </pre>
+          </div>
+
+          <div>
+              <pre>
+                Learn one way to build applications with Angular and reuse your 
+                 and abilities to build apps for any deployment target. For web,
+                  mobile web, native mobile and native desktop.
+                </pre>
+            </div>
+
+          <div>
+            <pre>
+              Learn one way to build applications with Angular and reuse your 
+                and abilities to build apps for any deployment target. For web,
+                mobile web, native mobile and native desktop.
+              </pre>
+          </div>
+            
+  </section>
+
+  <button (click) = 'openAnimatedFlyout()'>
+    Open Animated Flyout
+  </button>
+  <footer class="header">
+
+  </footer>
+</main>
+<app-pop-up (notifier) = 'buttonPopUpCloser()' *ngIf = 'buttonController'>
+  </app-pop-up>
+  <app-animated-flyout *ngIf = 'openAnimatedFlyoutLol'>
+
+  </app-animated-flyout>

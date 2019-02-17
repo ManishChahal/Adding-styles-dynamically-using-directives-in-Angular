@@ -1,0 +1,38 @@
+
+<section class="modal">
+  <section class="popUpContents">
+    <app-inner-most-comp>
+
+    </app-inner-most-comp>
+  <div>
+    <button (click) = 'notifyParent()'>
+      Click Me TO Close ME !!!!!
+    </button>
+  </div>
+  <div>
+    <pre>
+      Learn one way to build applications with Angular and reuse your 
+       and abilities to build apps for any deployment target. For web,
+        mobile web, native mobile and native desktop.
+      </pre>
+  </div>
+
+  <div [appStepperStatusNotifier] = 'popUpSteps.x'>
+
+  </div>
+
+  <div [appStepperStatusNotifier] = 'popUpSteps.y'>
+
+  </div>
+
+  <div [appStepperStatusNotifier] = 'popUpSteps.z'>
+
+  </div>
+
+  <button (click) = 'changeColors()'>
+    Click Me TO Change Colors!!!!!
+  </button>
+
+
+</section>
+</section>
